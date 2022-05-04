@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TABU del Guardian</title>
+</head>
+
+<body>
+    <div id="app">
+
+        <h1>TABU</h1>
+        <div class="content" id="contentGifs"></div>
+
+        <div class="marcador">
+            <h1><time id="temporizador">00:00:00</time></h1>
+            <div>
+                <input v-model="equipoA"></span><span>{{marcadorA}}</span>
+
+            </div>
+            <div>
+                <input v-model="equipoB"><span>{{marcadorB}}</span>
+
+            </div>
+        </div>
+        <div id="tablero">
+            <div id="ficha">
+                <div id="palabra" class="itemPalabra">{{ficha.palabra}}</div>
+                <div class="separator"></div>
+                <div id="tabu1" class="itemPalabra">{{ficha.tabu1}}</div>
+                <div id="tabu2" class="itemPalabra">{{ficha.tabu2}}</div>
+                <div id="tabu3" class="itemPalabra">{{ficha.tabu3}}</div>
+                <div id="tabu4" class="itemPalabra">{{ficha.tabu4}}</div>
+                <div id="tabu5" class="itemPalabra">{{ficha.tabu5}}</div>
+
+            </div>
+            <div class="botonera">
+                <button @click="fallo" id="botonFalla">FALLA</button>
+                <button @click="pasar" id="botonFalla">PASAR</button>
+                <button @click="acierto" id="botonAcierta">ACIERTA</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script type="text/javascript" src="words.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(36, 33, 30);
+    color: aliceblue;
+}
+
+#app {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    align-items: center;
+}
+
+img {
+    max-height: 150px;
+    max-width: 95%;
+    width: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+#tablero {
+    background-color: rgb(206, 128, 34);
+    height: 400px;
+    font-size: xx-large;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#ficha {
+    margin-top: 20px;
+    color: black;
+    height: 300px;
+    width: 180px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.separator {
+    border: 1px solid black;
+    width: 80%;
+}

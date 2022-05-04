@@ -1,0 +1,33 @@
+ [{
+         "palabra": "Estrabismo",
+         "tabu1": "ojos",
+         "tabu2": "desviacion",
+         "tabu3": "defecto",
+         "tabu4": "mirada",
+         "tabu5": "gafas"
+     },
+     {
+         "palabra": "Nochevieja",
+         "tabu1": "diciembre",
+         "tabu2": "fin",
+         "tabu3": "uvas",
+         "tabu4": "celebrar",
+         "tabu5": "año"
+     },
+     {
+         "palabra": "Rascacielos",
+         "tabu1": "alto",
+         "tabu2": "edificio",
+         "tabu3": "ascensor",
+         "tabu4": "moderno",
+         "tabu5": "WTC"
+     },
+     {
+         "palabra": "Portatil",
+         "tabu1": "ordenador",
+         "tabu2": "pequeño",
+         "tabu3": "transportar",
+         "tabu4": "cómodo",
+         "tabu5": "ligero"
+     }
+ ]
