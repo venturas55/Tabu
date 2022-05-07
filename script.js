@@ -18,16 +18,21 @@ var app = new Vue({
         marcadorA: 0,
         equipoB: "Equipo 2",
         marcadorB: 0,
-        sec: 0,
-        min: 0,
-        hrs: 0,
-        t: "",
+        esTurnoA: true,
+        tiempo: 0,
+        caraB: {
+            "palabra": "",
+            "tabu1": "",
+            "tabu2": "",
+            "tabu3": "TABU",
+            "tabu4": "",
+            "tabu5": ""
+        }
 
     },
     mounted: async function() {
         await this.readJson();
-        await this.siguiente();
-        var temporizador = document.getElementById('temporizador');
+        this.ficha = this.caraB;
     },
     computed: {
 
@@ -53,49 +58,49 @@ var app = new Vue({
             return Math.floor(Math.random() * this.fichas.length);
         },
         fallo: function() {
-            this.marcadorA -= 3;
+            if (this.esTurnoA)
+                this.marcadorA -= 3;
+            else
+                this.marcadorB -= 3;
             this.siguiente();
 
         },
         pasar: function() {
+            if (this.esTurnoA)
+                this.marcadorA--;
+            else
+                this.marcadorB--;
             this.siguiente();
-            this.marcadorA--;
+
         },
         acierto: function() {
-            this.marcadorA += 5;
+            if (this.esTurnoA)
+                this.marcadorA += 5;
+            else
+                this.marcadorB += 5;
             this.siguiente();
         },
 
-        tick: function() {
-            this.sec++;
-            if (this.sec >= 60) {
-                this.sec = 0;
-                this.min++;
-                if (this.min >= 60) {
-                    this.min = 0;
-                    this.hrs++;
-                }
+
+        updateClock: function() {
+            if (this.tiempo == 0) {
+                this.tiempo--;
+                this.ficha = this.caraB;
+                console.log('Final');
+                this.esTurnoA = !this.esTurnoA;
+            } else {
+                this.tiempo--;
+                setTimeout(this.updateClock, 1000);
             }
         },
-        add: function() {
-            this.tick();
-            h1.textContent = (this.hrs > 9 ? this.hrs : "0" + this.hrs) +
-                ":" + (this.min > 9 ? this.min : "0" + this.min) +
-                ":" + (this.sec > 9 ? this.sec : "0" + this.sec);
-            this.timer();
+        resetClock: function() {
+            this.tiempo = 100;
         },
-        timer: function() {
-            this.t = setTimeout(this.add(), 1000);
+        startClock: function() {
+            this.siguiente();
+            this.resetClock();
+            setTimeout(this.updateClock, 1000);
 
-        },
-        comienzaTurno: function() {
-            clearTimeout(this.t);
-        },
-        resetTemporizador: function() {
-            temporizador.textContent = "00:00:00";
-            this.seconds = 0;
-            this.minutes = 0;
-            this.hours = 0;
         }
 
     }

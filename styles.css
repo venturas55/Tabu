@@ -26,13 +26,26 @@ img {
     margin: auto;
 }
 
-#tablero {
-    background-color: rgb(206, 128, 34);
-    height: 400px;
-    font-size: xx-large;
+#marcador {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+#countdown {
+    min-height: 40px;
+    font-size: xx-large;
+}
+
+#tablero {
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    font-size: xx-large;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -54,4 +67,12 @@ img {
 .separator {
     border: 1px solid black;
     width: 80%;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 15px;
 }

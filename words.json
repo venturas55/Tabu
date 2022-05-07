@@ -29,5 +29,238 @@
          "tabu3": "transportar",
          "tabu4": "cómodo",
          "tabu5": "ligero"
+     },
+     {
+         "palabra": "Ostra",
+         "tabu1": "Perla",
+         "tabu2": "Mar",
+         "tabu3": "Bivalvo",
+         "tabu4": "Marisco",
+         "tabu5": "Comer"
+     },
+     {
+         "palabra": "Recreo",
+         "tabu1": "Patio",
+         "tabu2": "Escuela",
+         "tabu3": "Jugar",
+         "tabu4": "Campana",
+         "tabu5": "Tiempo"
+     },
+     {
+         "palabra": "Anchoa",
+         "tabu1": "Sardina",
+         "tabu2": "Pescado",
+         "tabu3": "Lata",
+         "tabu4": "Comida",
+         "tabu5": "Salado"
+     },
+     {
+         "palabra": "Fantasma",
+         "tabu1": "Sabana",
+         "tabu2": "Miedo",
+         "tabu3": "Cadenas",
+         "tabu4": "Castillo",
+         "tabu5": "Espiritu"
+     },
+     {
+         "palabra": "Cuadro",
+         "tabu1": "Museo",
+         "tabu2": "Pintor",
+         "tabu3": "Óleo",
+         "tabu4": "Caballete",
+         "tabu5": "Tela"
+     },
+     {
+         "palabra": "Gol",
+         "tabu1": "Pelota",
+         "tabu2": "Hacer",
+         "tabu3": "Puntuacion",
+         "tabu4": "Futbol",
+         "tabu5": "Porteria"
+     },
+     {
+         "palabra": "Circo",
+         "tabu1": "Pista",
+         "tabu2": "Carpa",
+         "tabu3": "Payasos",
+         "tabu4": "Trapecista",
+         "tabu5": "Domador"
+     },
+     {
+         "palabra": "Pintar",
+         "tabu1": "Cuadro",
+         "tabu2": "Colo",
+         "tabu3": "Artista",
+         "tabu4": "Pincel",
+         "tabu5": "Pared"
+     },
+     {
+         "palabra": "Navidad",
+         "tabu1": "Diciembre",
+         "tabu2": "Papa Noel",
+         "tabu3": "Villancicos",
+         "tabu4": "Arbolito",
+         "tabu5": "Nacimiento"
+     },
+     {
+         "palabra": "Palmera",
+         "tabu1": "Datil",
+         "tabu2": "Coco",
+         "tabu3": "Arbol",
+         "tabu4": "Chocolate",
+         "tabu5": "Trópico"
+     },
+     {
+         "palabra": "Mosquito",
+         "tabu1": "Picadura",
+         "tabu2": "Rascarse",
+         "tabu3": "Raid",
+         "tabu4": "Espiral",
+         "tabu5": "Insecto"
+     },
+     {
+         "palabra": "Cuna",
+         "tabu1": "Dormir",
+         "tabu2": "Bebe",
+         "tabu3": "Canción",
+         "tabu4": "Barrotes",
+         "tabu5": "Cama"
+     },
+     {
+         "palabra": "Roncar",
+         "tabu1": "Noche",
+         "tabu2": "Ruido",
+         "tabu3": "Nariz",
+         "tabu4": "Dormir",
+         "tabu5": "Molestar"
+     },
+     {
+         "palabra": "Tenis",
+         "tabu1": "Deporte",
+         "tabu2": "Pelota",
+         "tabu3": "Pista",
+         "tabu4": "Raqueta",
+         "tabu5": "Red"
+     },
+     {
+         "palabra": "Castigo",
+         "tabu1": "Diciembre",
+         "tabu2": "Papa Noel",
+         "tabu3": "Mal",
+         "tabu4": "Niño",
+         "tabu5": "Obedecer"
+     },
+     {
+         "palabra": "Cine",
+         "tabu1": "Película",
+         "tabu2": "Pantalla",
+         "tabu3": "Filmar",
+         "tabu4": "Proyectar",
+         "tabu5": "Cámara"
+     },
+     {
+         "palabra": "Risa",
+         "tabu1": "Ridiculo",
+         "tabu2": "Cómic",
+         "tabu3": "Carcajada",
+         "tabu4": "Chiste",
+         "tabu5": "Broma"
+     },
+     {
+         "palabra": "Esposas",
+         "tabu1": "Arresto",
+         "tabu2": "Policia",
+         "tabu3": "Mano",
+         "tabu4": "Preso",
+         "tabu5": "Muñeca"
+     },
+     {
+         "palabra": "Cenizas",
+         "tabu1": "Fuego",
+         "tabu2": "Fumar",
+         "tabu3": "Polvo",
+         "tabu4": "Quemar",
+         "tabu5": "Tabaco"
+     },
+     {
+         "palabra": "Botiquín",
+         "tabu1": "Medicina",
+         "tabu2": "Espejo",
+         "tabu3": "Remedios",
+         "tabu4": "Guardar",
+         "tabu5": "Armario"
+     },
+     {
+         "palabra": "Pasaporte",
+         "tabu1": "Documento",
+         "tabu2": "Extranjero",
+         "tabu3": "Viajar",
+         "tabu4": "Aduana",
+         "tabu5": "Visa"
+     },
+     {
+         "palabra": "Pinocho",
+         "tabu1": "Mentira",
+         "tabu2": "Nariz",
+         "tabu3": "Gepetto",
+         "tabu4": "Muñeco",
+         "tabu5": "Cuento"
+     },
+     {
+         "palabra": "Lagrima",
+         "tabu1": "Ojos",
+         "tabu2": "Llorar",
+         "tabu3": "agua",
+         "tabu4": "Gotas",
+         "tabu5": "Tristes"
+     },
+     {
+         "palabra": "Pais",
+         "tabu1": "Estado",
+         "tabu2": "Nacion",
+         "tabu3": "Gobierno",
+         "tabu4": "Frontera",
+         "tabu5": "Bandera"
+     },
+     {
+         "palabra": "Nube",
+         "tabu1": "Cielo",
+         "tabu2": "Despejado",
+         "tabu3": "Lluvia",
+         "tabu4": "Sol",
+         "tabu5": "Trueno"
+     },
+     {
+         "palabra": "Uniforme",
+         "tabu1": "Vestido",
+         "tabu2": "Igual",
+         "tabu3": "Colegio",
+         "tabu4": "Ejercito",
+         "tabu5": "Policia"
+     },
+     {
+         "palabra": "Kremlin",
+         "tabu1": "Moscu",
+         "tabu2": "URSS",
+         "tabu3": "Palacio",
+         "tabu4": "Rusia",
+         "tabu5": "Plaza roja"
+     },
+     {
+         "palabra": "Suerte",
+         "tabu1": "Buena",
+         "tabu2": "Amuleto",
+         "tabu3": "Mala",
+         "tabu4": "Culo",
+         "tabu5": "Mierda"
+     },
+     {
+         "palabra": "Rosa",
+         "tabu1": "Espinas",
+         "tabu2": "Flor",
+         "tabu3": "Pantera",
+         "tabu4": "Color",
+         "tabu5": "Rojo"
      }
+
  ]
