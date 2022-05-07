@@ -41,7 +41,7 @@ var app = new Vue({
         .then((response) => response.json())
         .then((json) => {
           vm.fichas = json;
-          console.log(vm.fichas);
+          //console.log(vm.fichas);
         })
         .catch(function () {
           vm.dataError = true;
@@ -93,7 +93,9 @@ var app = new Vue({
       setTimeout(this.updateClock, 1000);
     },
     resetGame: function () {
+      this.equipoA = "Equipo 1";
       this.marcadorA = 0;
+      this.equipoB = "Equipo 2";
       this.marcadorB = 0;
     },
     cambiarEquipo: function () {
@@ -106,18 +108,21 @@ var app = new Vue({
         marcadorA: this.marcadorA,
         marcadorB: this.marcadorB,
       };
-      localStorage.setItem("marcador", obj);
+      localStorage.setItem("marcador", JSON.stringify(obj));
+      console.log("guardado:"+JSON.stringify(obj));
     },
-    cargarMarcador:function(){
-        var obj = localStorage.getItem("marcador");
-        console.log("cargarMarcador: "+obj);
-        if(obj!=null){
-            this.equipoA = obj.equipoA;
-            this.equipoB = obj.equipoB;
-            this.marcadorA = obj.marcadorA;
-            this.marcadorB = obj.marcadorB;
-        }
-        
-    }
+    cargarMarcador: function () {
+      var marcador = localStorage.getItem("marcador");
+      console.log("Cargar:"+marcador);
+      if (marcador) {
+        var obj = JSON.parse(marcador);
+        this.equipoA = obj.equipoA;
+        this.equipoB = obj.equipoB;
+        this.marcadorA = obj.marcadorA;
+        this.marcadorB = obj.marcadorB;
+      } else {
+        this.resetGame();
+      }
+    },
   },
 });
