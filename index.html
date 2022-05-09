@@ -13,20 +13,19 @@
     <div id="app">
 
         <h1>TABU</h1>
-        <div v-if="esTurnoA==true">TURNO DE {{equipoA}}
+        <div v-if="esTurnoA==true">TURNO DE '{{equipoA}}'</div>
+        <div v-else> TURNO DE '{{equipoB}}'</div>
+        <div id="countdown" v-show="tiempo>=0">
+            {{tiempo}}
         </div>
-        <div v-else> TURNO DE {{equipoB}}</div>
-
         <div id="marcador">
-            <div id="countdown" v-show="tiempo>=0">
-                {{tiempo}}
-            </div>
-            <div>
-                <input v-model="equipoA"></span><span>{{marcadorA}}</span>
+
+            <div class="form__item">
+                <input class="form__field" v-model="equipoA"> <span>{{marcadorA}} puntos</span>
 
             </div>
-            <div>
-                <input v-model="equipoB"><span>{{marcadorB}}</span>
+            <div class="form__item">
+                <input class="form__field" v-model="equipoB"><span>{{marcadorB}} puntos</span>
             </div>
 
         </div>
@@ -48,8 +47,8 @@
             </div>
             <div v-else>
                 <button @click="startClock" id="botonStart">START</button>
-                 <button @click="resetGame">REINICIAR PARTIDA</button>
-               <!-- <button @click="cambiarEquipo">CAMBIAR TURNO</button>
+                <button @click="resetGame">REINICIAR</button>
+                <!-- <button @click="cambiarEquipo">CAMBIAR TURNO</button>
                 <button @click="guardarMarcador">GuardarMarcador</button> -->
             </div>
         </div>

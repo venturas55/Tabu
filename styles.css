@@ -27,8 +27,9 @@ img {
 }
 
 #marcador {
+    width: 100%;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -38,10 +39,45 @@ img {
     font-size: xx-large;
 }
 
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    font-size: 1.3rem;
+    color: #fff;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+
+/* .form__field:placeholder-shown~.form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+} */
+
+.form__item {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.form__item span {
+    padding: 0px;
+    margin: 0px;
+    min-width: 100px;
+}
+
 #tablero {
-    margin: 20px;
-    height: 400px;
-    width: 350px;
+    width: 100%;
     font-size: xx-large;
     display: flex;
     flex-flow: column nowrap;
@@ -71,8 +107,8 @@ img {
 
 button {
     height: 40px;
-    width: 70px;
-    background-color: bisque;
+    width: 80px;
+    background-color: rgb(237, 255, 196);
     border-radius: 5px;
     margin: 15px;
 }
