@@ -5,12 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
     <title>TABU del Guardian</title>
 </head>
 
 <body>
+
     <div id="app">
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">OPCIONES</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>CONFIGURACION</h2>
+                <div>
+                    <span>Tiempo</span>
+                    <input type="number" v-model="tiempoPartida" size="3" step="1">s
+                </div>
+                <div>
+                    <span>Puntos pora cierto</span>
+                    <input type="number" v-model="puntosAcierto" size="2" step="1">
+                </div>
+                <div>
+                    <span>Penalizacion Fallo</span>
+                    <input type="number" v-model="penalizaFallo" size="2" step="1">
+                </div>
+                <div>
+                    <span>Penalización Pasar pasalabra</span>
+                    <input type="number" v-model="penalizaPasa" size="2" step="1">
+                </div>
+                <button @click="guardarConfiguracion">GUARDAR CONF</button>
+
+            </div>
+        </div>
 
         <h1>TABU</h1>
         <div v-if="esTurnoA==true">TURNO DE '{{equipoA}}'</div>
@@ -32,12 +61,9 @@
         <div id="tablero">
             <div id="ficha">
                 <div id="palabra" class="itemPalabra">{{ficha.palabra}}</div>
-                <div class="separator"></div>
-                <div id="tabu1" class="itemPalabra">{{ficha.tabu1}}</div>
-                <div id="tabu2" class="itemPalabra">{{ficha.tabu2}}</div>
-                <div id="tabu3" class="itemPalabra">{{ficha.tabu3}}</div>
-                <div id="tabu4" class="itemPalabra">{{ficha.tabu4}}</div>
-                <div id="tabu5" class="itemPalabra">{{ficha.tabu5}}</div>
+                <div v-if="!ficha.vacio" class="separator"></div>
+                <div class="itemPalabra" v-for="palabratabu in ficha.tabu">{{palabratabu}}</div>
+
 
             </div>
             <div class="botonera" v-if="tiempo>0">
@@ -53,9 +79,16 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-    <script type="text/javascript" src="words.json"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./src/js/words.json"></script>
+    <script type="text/javascript" src="./src/js/script.js"></script>
 </body>
 
 </html>

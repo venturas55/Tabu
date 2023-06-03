@@ -1,0 +1,1102 @@
+[
+    {
+        "palabra": "Perro",
+        "tabu": [
+            "Mascota",
+            "Ladrar",
+            "Amigo",
+            "Peludo",
+            "Cola"
+        ]
+    },
+    {
+        "palabra": "Avión",
+        "tabu": [
+            "Volar",
+            "Aeropuerto",
+            "Piloto",
+            "Viaje",
+            "Alas"
+        ]
+    },
+    {
+        "palabra": "Guitarra",
+        "tabu": [
+            "Música",
+            "Instrumento",
+            "Cuerdas",
+            "Acordes",
+            "Melodía"
+        ]
+    },
+    {
+        "palabra": "Pizza",
+        "tabu": [
+            "Comida",
+            "Queso",
+            "Deliciosa",
+            "Horno",
+            "Rodajas"
+        ]
+    },
+    {
+        "palabra": "Computadora",
+        "tabu": [
+            "Tecnología",
+            "Internet",
+            "Teclado",
+            "Programación",
+            "Pantalla"
+        ]
+    },
+    {
+        "palabra": "Tigre",
+        "tabu": [
+            "Feroz",
+            "Selva",
+            "Rayas",
+            "Depredador",
+            "Garras"
+        ]
+    },
+    {
+        "palabra": "Playa",
+        "tabu": [
+            "Arena",
+            "Sol",
+            "Mar",
+            "Vacaciones",
+            "Bronceado"
+        ]
+    },
+    {
+        "palabra": "Pelota",
+        "tabu": [
+            "Deporte",
+            "Redonda",
+            "Saltar",
+            "Lanzar",
+            "Golpear"
+        ]
+    },
+    {
+        "palabra": "Libro",
+        "tabu": [
+            "Lectura",
+            "Páginas",
+            "Historia",
+            "Escritor",
+            "Biblioteca"
+        ]
+    },
+    {
+        "palabra": "Café",
+        "tabu": [
+            "Bebida",
+            "Caliente",
+            "Aroma",
+            "Taza",
+            "Despertar"
+        ]
+    },
+    {
+        "palabra": "Coche",
+        "tabu": [
+            "Automóvil",
+            "Ruedas",
+            "Velocidad",
+            "Conductor",
+            "Gasolina"
+        ]
+    },
+    {
+        "palabra": "Montaña",
+        "tabu": [
+            "Naturaleza",
+            "Cumbre",
+            "Senderismo",
+            "Paisaje",
+            "Altura"
+        ]
+    },
+    {
+        "palabra": "Cama",
+        "tabu": [
+            "Dormir",
+            "Descanso",
+            "Colchón",
+            "Sábanas",
+            "Almohada"
+        ]
+    },
+    {
+        "palabra": "Película",
+        "tabu": [
+            "Cine",
+            "Actores",
+            "Director",
+            "Trama",
+            "Estreno"
+        ]
+    },
+    {
+        "palabra": "Teléfono",
+        "tabu": [
+            "Llamada",
+            "Móvil",
+            "Conversación",
+            "Contactos",
+            "Pantalla"
+        ]
+    },
+    {
+        "palabra": "Fiesta",
+        "tabu": [
+            "Celebración",
+            "Música",
+            "Baile",
+            "Invitados",
+            "Diversión"
+        ]
+    },
+    {
+        "palabra": "Jardín",
+        "tabu": [
+            "Flores",
+            "Plantas",
+            "Hierba",
+            "Regar",
+            "Naturaleza"
+        ]
+    },
+    {
+        "palabra": "Maleta",
+        "tabu": [
+            "Viaje",
+            "Equipaje",
+            "Ruedas",
+            "Aeropuerto",
+            "Empacar"
+        ]
+    },
+    {
+        "palabra": "Sol",
+        "tabu": [
+            "Astro",
+            "Brillante",
+            "Calor",
+            "Día",
+            "Luz"
+        ]
+    },
+    {
+        "palabra": "Reloj",
+        "tabu": [
+            "Hora",
+            "Manecillas",
+            "Pulsera",
+            "Tiempo",
+            "Despertador"
+        ]
+    },
+    {
+        "palabra": "Lápiz",
+        "tabu": [
+            "Escribir",
+            "Dibujo",
+            "Goma",
+            "Papel",
+            "Punta"
+        ]
+    },
+    {
+        "palabra": "Bicicleta",
+        "tabu": [
+            "Pedales",
+            "Ruedas",
+            "Ciclismo",
+            "Cascos",
+            "Andar"
+        ]
+    },
+    {
+        "palabra": "Botella",
+        "tabu": [
+            "Líquido",
+            "Tapón",
+            "Envase",
+            "Beber",
+            "Vidrio"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    },
+    {
+        "palabra": "Teléfono",
+        "tabu": [
+            "Llamada",
+            "Móvil",
+            "Conversación",
+            "Contactos",
+            "Pantalla"
+        ]
+    },
+    {
+        "palabra": "Fiesta",
+        "tabu": [
+            "Celebración",
+            "Música",
+            "Baile",
+            "Invitados",
+            "Diversión"
+        ]
+    },
+    {
+        "palabra": "Jardín",
+        "tabu": [
+            "Flores",
+            "Plantas",
+            "Hierba",
+            "Regar",
+            "Naturaleza"
+        ]
+    },
+    {
+        "palabra": "Maleta",
+        "tabu": [
+            "Viaje",
+            "Equipaje",
+            "Ruedas",
+            "Aeropuerto",
+            "Empacar"
+        ]
+    },
+    {
+        "palabra": "Sol",
+        "tabu": [
+            "Astro",
+            "Brillante",
+            "Calor",
+            "Día",
+            "Luz"
+        ]
+    },
+    {
+        "palabra": "Reloj",
+        "tabu": [
+            "Hora",
+            "Manecillas",
+            "Pulsera",
+            "Tiempo",
+            "Despertador"
+        ]
+    },
+    {
+        "palabra": "Lápiz",
+        "tabu": [
+            "Escribir",
+            "Dibujo",
+            "Goma",
+            "Papel",
+            "Punta"
+        ]
+    },
+    {
+        "palabra": "Bicicleta",
+        "tabu": [
+            "Pedales",
+            "Ruedas",
+            "Ciclismo",
+            "Cascos",
+            "Andar"
+        ]
+    },
+    {
+        "palabra": "Botella",
+        "tabu": [
+            "Líquido",
+            "Tapón",
+            "Envase",
+            "Beber",
+            "Vidrio"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    },
+    {
+        "palabra": "Globo",
+        "tabu": [
+            "Inflar",
+            "Aire",
+            "Redondo",
+            "Colores",
+            "Cuerda"
+        ]
+    },
+    {
+        "palabra": "Chocolate",
+        "tabu": [
+            "Dulce",
+            "Postre",
+            "Tableta",
+            "Cacao",
+            "Derretir"
+        ]
+    },
+    {
+        "palabra": "Piscina",
+        "tabu": [
+            "Agua",
+            "Nadar",
+            "Chapotear",
+            "Bañador",
+            "Diversión"
+        ]
+    },
+    {
+        "palabra": "Dinosaurio",
+        "tabu": [
+            "Prehistoria",
+            "Extinto",
+            "Fósiles",
+            "Jurásico",
+            "Colosal"
+        ]
+    },
+    {
+        "palabra": "Sombrero",
+        "tabu": [
+            "Cabeza",
+            "Protección",
+            "Accesorio",
+            "Sol",
+            "Estilo"
+        ]
+    },
+    {
+        "palabra": "Bailar",
+        "tabu": [
+            "Música",
+            "Ritmo",
+            "Movimiento",
+            "Pista",
+            "Coreografía"
+        ]
+    },
+    {
+        "palabra": "Casa",
+        "tabu": [
+            "Hogar",
+            "Vivienda",
+            "Puertas",
+            "Ventanas",
+            "Techo"
+        ]
+    },
+    {
+        "palabra": "Doctor",
+        "tabu": [
+            "Médico",
+            "Enfermo",
+            "Hospital",
+            "Receta",
+            "Consulta"
+        ]
+    },
+    {
+        "palabra": "Fútbol",
+        "tabu": [
+            "Deporte",
+            "Balón",
+            "Arco",
+            "Equipo",
+            "Gol"
+        ]
+    },
+    {
+        "palabra": "Parque",
+        "tabu": [
+            "Árboles",
+            "Juegos",
+            "Recreación",
+            "Bancos",
+            "Pasear"
+        ]
+    },
+    {
+        "palabra": "Espejo",
+        "tabu": [
+            "Reflejo",
+            "Cristal",
+            "Ver",
+            "Apariencia",
+            "Baño"
+        ]
+    },
+    {
+        "palabra": "Teatro",
+        "tabu": [
+            "Actuación",
+            "Escenario",
+            "Obra",
+            "Actores",
+            "Telón"
+        ]
+    },
+    {
+        "palabra": "Cámara",
+        "tabu": [
+            "Fotografía",
+            "Tomar",
+            "Instantánea",
+            "Capturar",
+            "Objetivo"
+        ]
+    },
+    {
+        "palabra": "Guitarra",
+        "tabu": [
+            "Música",
+            "Instrumento",
+            "Cuerdas",
+            "Acordes",
+            "Melodía"
+        ]
+    },
+    {
+        "palabra": "Reloj",
+        "tabu": [
+            "Hora",
+            "Manecillas",
+            "Pulsera",
+            "Tiempo",
+            "Despertador"
+        ]
+    },
+    {
+        "palabra": "Lápiz",
+        "tabu": [
+            "Escribir",
+            "Dibujo",
+            "Goma",
+            "Papel",
+            "Punta"
+        ]
+    },
+    {
+        "palabra": "Bicicleta",
+        "tabu": [
+            "Pedales",
+            "Ruedas",
+            "Ciclismo",
+            "Cascos",
+            "Andar"
+        ]
+    },
+    {
+        "palabra": "Botella",
+        "tabu": [
+            "Líquido",
+            "Tapón",
+            "Envase",
+            "Beber",
+            "Vidrio"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    },
+    {
+        "palabra": "Payaso",
+        "tabu": [
+            "Circo",
+            "Risas",
+            "Nariz",
+            "Actuación",
+            "Disfraz"
+        ]
+    },
+    {
+        "palabra": "Llave",
+        "tabu": [
+            "Abrir",
+            "Cerrar",
+            "Puerta",
+            "Candado",
+            "Metal"
+        ]
+    },
+    {
+        "palabra": "Helado",
+        "tabu": [
+            "Postre",
+            "Frío",
+            "Dulce",
+            "Verano",
+            "Sorbete"
+        ]
+    },
+    {
+        "palabra": "Estrella",
+        "tabu": [
+            "Brillo",
+            "Cielo",
+            "Noche",
+            "Astro",
+            "Galaxia"
+        ]
+    },
+    {
+        "palabra": "Barco",
+        "tabu": [
+            "Navegar",
+            "Mar",
+            "Velero",
+            "Capitán",
+            "Ancla"
+        ]
+    },
+    {
+        "palabra": "Escuela",
+        "tabu": [
+            "Estudiar",
+            "Profesor",
+            "Alumnos",
+            "Pizarra",
+            "Aprender"
+        ]
+    },
+    {
+        "palabra": "Ratón",
+        "tabu": [
+            "Roedor",
+            "Cola",
+            "Queso",
+            "Trampa",
+            "Pequeño"
+        ]
+    },
+    {
+        "palabra": "Piano",
+        "tabu": [
+            "Teclas",
+            "Instrumento",
+            "Música",
+            "Melodía",
+            "Concierto"
+        ]
+    },
+    {
+        "palabra": "Luna",
+        "tabu": [
+            "Noche",
+            "Astro",
+            "Espacio",
+            "Estrellas",
+            "Brillante"
+        ]
+    },
+    {
+        "palabra": "Lámpara",
+        "tabu": [
+            "Luz",
+            "Iluminar",
+            "Bombilla",
+            "Interruptor",
+            "Mesa"
+        ]
+    }
+]
